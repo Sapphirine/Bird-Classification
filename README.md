@@ -3,6 +3,9 @@ Yixiao Qu, Jiaying Yang, Qi Lv
 
 Biodiversity is decreasing quickly recently years, plants, birds are in danger now. Bird protection needs public contribution. And bird classification and recognition via computer is key technology for it. Using technology of clustering, classification and machine learning to achieve this goal, and building internet website to make it public using available.
 
+**Need to put the model.ckpt.data-00000-of-00001 file in the `Training file/cloud/data`, the link is: can view with lionmail
+The model is also too large so the link is here:https://drive.google.com/file/d/103yr2YvWflipatv3HwFKcm-ASKRi6YHE/view. https://drive.google.com/a/columbia.edu/file/d/1mUwatC9aFITZ7R0M5feoLsjpX0jbyaXL/view?usp=sharing, need to put the model in the `object_detection/faster_rcnn_nas_coco_2017_11_08` folder.**
+
 ## Dataset: NAbirds
 G. Van Horn, S. Branson, R. Farrell, S. Haber, J. Barry, P. Ipeirotis, P. Perona, and S. Belongie. Building a bird recognition app and large scale dataset with citizen scientists: The fine print in fine- grained dataset collection. In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015. 1, 6,
 
@@ -49,6 +52,8 @@ python object_detection/export_inference_graph.py \
 ```
 
 ps: we didn't upload the test.record and train.record file as they are both 10G.
+
+
 
 ## website:
 ------------------------
